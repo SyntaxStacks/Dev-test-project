@@ -10,6 +10,7 @@ Your program will be given an input file that contains two data points that look
 For example, consider the following input:
 ***
 6.0 8.0 5.0
+
 0.0 0.0 5.0
 ***
 
