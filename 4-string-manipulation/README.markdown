@@ -1,12 +1,22 @@
 #String Manipulation
 
-##regex sandbox
+##Problem Definition
+Write a function to compact a string in place: 
+A.	strip whitespace from the string.
+B.	remove duplicate characters if they are next to each other
 
-rubular: [http://rubular.com/r/1N7cbD90XB](http://rubular.com/r/1N7cbD90XB)
+For example, consider the following input:
+***
+abb cddpddef gh
+***
 
-###regex: 
+Then the output of your program should be:
+***
+abcdpdefgh
+***
 
-(.)(?=(\s+)?\1)|\s+
+
+##Summary of my solution
 
 ###Strings in Python are immutable
 
@@ -15,6 +25,14 @@ rubular: [http://rubular.com/r/1N7cbD90XB](http://rubular.com/r/1N7cbD90XB)
     Another approach to consider is converting the targetString to a list or
     bytearray, iterating over each character, and producing a new string to
     return. Both methods break the "in place" constraint in the requirements.
+
+###regex: 
+
+(.)(?=(\s+)?\1)|\s+
+
+###regex sandbox
+
+rubular: [http://rubular.com/r/1N7cbD90XB](http://rubular.com/r/1N7cbD90XB)
 
 ###test strings:
 
