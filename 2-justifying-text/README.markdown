@@ -6,13 +6,16 @@ Suppose you are programming for a really old-school internet newspaper, one that
 For example, consider the following input:
 ***
 20
+
 The quick brown fox jumps over the lazy dog.
 ***
 
 Then the output of your program should be:
 ***
 The quick  brown fox
-jumps over  the lazye
+
+jumps over  the lazy
+
 dog.
 ***
 
