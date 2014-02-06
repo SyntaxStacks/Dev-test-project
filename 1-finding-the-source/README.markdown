@@ -23,6 +23,7 @@ which indicates that the object must reside at coordinates x = 3, y = 4.
 ##Summary of my solution
 
 $ python findsource.py input.txt
+
 3.0 4.0
 
 ##Resources
