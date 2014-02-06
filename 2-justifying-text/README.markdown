@@ -24,4 +24,9 @@ As you can tell from this example, the last line does not have to be justified.
 
 ##Summary of my Solution
 
+    $ python justifytext.py input.txt
+    The quick  brown fox
+    jumps over  the lazy
+    dog.
+
 ##Resources
